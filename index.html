@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookyMet - Where Players Meet</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Fixed Navigation Bar -->
+    <header class="header">
+        <nav class="navbar">
+            <!-- Logo -->
+                   <span class="logo-text">
+                        <span class="logo-b">B</span>ookyMet
+                   </span>
+            </div>
+
+            <!-- Navigation Menu -->
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#reviews" class="nav-link">Reviews</a></li>
+                <li><a href="#support" class="nav-link">Support</a></li>
+            </ul>
+
+            <!-- Download Button -->
+            <a href="#download" class="download-btn">Download</a>
+
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+            <div class="mobile-menu-content">
+                <button class="mobile-close">&times;</button>
+                <ul class="mobile-nav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#support">Support</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="hero-container">
+        <!-- Left Section -->
+        <section class="hero-left">
+            <h1 class="hero-title">BookyMet</h1>
+            <p class="hero-description">
+                "Bookymet is your easy-to-use platform that lets you discover, book, and manage sports turfs anytime and making your game plans smoother."
+            </p>
+            
+            <!-- App Store Buttons -->
+            <div class="app-buttons">
+                <a href="#" class="app-button apple-button">
+                    <div class="button-icon">
+                        <i class="fab fa-apple"></i>
+                    </div>
+                    <div class="button-text">
+                        <span class="button-small">Download on the</span>
+                        <span class="button-large">App Store</span>
+                    </div>
+                </a>
+                
+                <a href="#" class="app-button google-button">
+                    <div class="button-icon">
+                        <i class="fab fa-google-play"></i>
+                    </div>
+                    <div class="button-text">
+                        <span class="button-small">Get it on</span>
+                        <span class="button-large">Google Play</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Right Section with Slideshow -->
+        <section class="hero-right">
+            <div class="image-wrapper">
+                <div class="slideshow-container">
+                    <img src="images/pages.png" alt="Sports Frame 1" class="slide-image active" id="slide1">
+                    <img src="images/frame2.png" alt="Sports Frame 2" class="slide-image" id="slide2">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
